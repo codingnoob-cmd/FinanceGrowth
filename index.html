@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#123c2d" />
+  <meta name="description" content="FINANCE GROWTH — a calm, botanical space to understand and organize your money." />
+  <title>FINANCE GROWTH — Grow with clarity.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="auth-screen" id="authScreen" aria-label="Sign in to Finance Growth">
+    <div class="auth-background-orb auth-orb-one"></div><div class="auth-background-orb auth-orb-two"></div>
+    <div class="auth-brand-row">
+      <a class="brand brand-light" href="#auth" aria-label="Finance Growth">
+        <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 34V17M20 22C12 22 8 17 8 10c8 0 12 4 12 12Zm0-5C20 9 25 5 33 5c0 8-4 13-13 14Z"/><path d="M12 34h16"/></svg></span>
+        <span><strong>FINANCE</strong><small>GROWTH</small></span>
+      </a>
+      <span class="auth-brand-note">A MORE THOUGHTFUL WAY TO MANAGE MONEY</span>
+    </div>
+    <div class="auth-layout">
+      <div class="auth-story">
+        <p class="eyebrow light-eyebrow"><span></span> YOUR FINANCIAL LIFE, IN BLOOM</p>
+        <h1>A clearer way<br/>to <em>grow</em> with money.</h1>
+        <p>Sign in to your personal financial garden, or create a local account to begin tracking your progress.</p>
+        <div class="auth-feature-list"><span>✳ Personal finance workspace</span><span>♧ Progress-linked botanical visuals</span><span>⌂ Saved privately in this browser</span></div>
+        <div class="auth-story-credit">DESIGNED AND CREATED BY <strong>ABIZER KAGZI</strong></div>
+      </div>
+      <div class="auth-card-wrap"><div class="auth-card" id="authCard"></div></div>
+    </div>
+    <div class="auth-footer"><span>FINANCE GROWTH · GROW WITH CLARITY.</span><span>LOCAL PROFILE · NO GOOGLE SIGN-IN REQUIRED</span></div>
+  </section>
+
+  <div class="welcome-screen hidden" id="welcomeScreen">
+    <div class="welcome-topline">
+      <a class="brand brand-light" href="#welcome" aria-label="Finance Growth home">
+        <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 34V17M20 22C12 22 8 17 8 10c8 0 12 4 12 12Zm0-5C20 9 25 5 33 5c0 8-4 13-13 14Z"/><path d="M12 34h16"/></svg></span>
+        <span><strong>FINANCE</strong><small>GROWTH</small></span>
+      </a>
+      <span class="welcome-index">A MORE THOUGHTFUL WAY TO MANAGE MONEY</span>
+    </div>
+    <main class="welcome-grid">
+      <section class="welcome-copy">
+        <p class="eyebrow light-eyebrow"><span></span> YOUR FINANCIAL LIFE, IN BLOOM</p>
+        <h1>Grow your money.<br /><em>Cultivate</em> your future.</h1>
+        <p class="welcome-description">A calmer way to understand your money, build thoughtful habits, and create a future that grows with every decision.</p>
+        <button class="button button-gold button-large" id="startExploring">Start exploring <span aria-hidden="true">↗</span></button>
+        <p class="creator-credit">Designed and created by <strong>ABIZER KAGZI</strong></p>
+      </section>
+      <section class="welcome-art" aria-label="Botanical tree illustration">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-caption caption-top">A LITTLE GROWTH, EVERY DAY</div>
+        <svg class="hero-tree" viewBox="0 0 560 620" role="img" aria-label="Illustration of a flourishing tree with green leaves">
+          <defs>
+            <linearGradient id="trunkGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d2b985"/><stop offset="1" stop-color="#8c9b70"/></linearGradient>
+            <linearGradient id="leafGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9cda9"/><stop offset="1" stop-color="#4f795b"/></linearGradient>
+          </defs>
+          <ellipse cx="280" cy="565" rx="190" ry="18" fill="#102f26" opacity=".16"/>
+          <path class="tree-trunk" d="M276 560C274 494 271 436 281 378c8-49 0-86-14-120 17 16 34 45 37 78 4 40-5 69-1 98 8-50 26-83 60-113-17 29-31 56-36 86-7 38-3 91 2 153Z" fill="url(#trunkGradient)"/>
+          <path d="M280 414c-29-66-75-92-130-123m145 91c24-76 68-116 119-145m-132 92c-5-79-25-131-54-172m78 178c32-70 73-103 103-123" stroke="#bcae80" stroke-width="10" fill="none" stroke-linecap="round"/>
+          <g fill="url(#leafGradient)" stroke="#d5dfc9" stroke-width="1.2">
+            <ellipse class="leaf leaf-a" cx="144" cy="286" rx="45" ry="25" transform="rotate(28 144 286)"/><ellipse class="leaf leaf-b" cx="195" cy="183" rx="42" ry="24" transform="rotate(-48 195 183)"/><ellipse class="leaf leaf-c" cx="271" cy="130" rx="48" ry="25" transform="rotate(15 271 130)"/><ellipse class="leaf leaf-d" cx="369" cy="160" rx="48" ry="25" transform="rotate(-34 369 160)"/><ellipse class="leaf leaf-e" cx="433" cy="248" rx="48" ry="25" transform="rotate(25 433 248)"/><ellipse class="leaf leaf-f" cx="344" cy="267" rx="46" ry="24" transform="rotate(42 344 267)"/><ellipse class="leaf leaf-g" cx="223" cy="286" rx="42" ry="24" transform="rotate(-28 223 286)"/><ellipse class="leaf leaf-h" cx="284" cy="211" rx="49" ry="26" transform="rotate(-8 284 211)"/>
+            <ellipse cx="104" cy="342" rx="27" ry="15" transform="rotate(25 104 342)"/><ellipse cx="470" cy="305" rx="28" ry="16" transform="rotate(-28 470 305)"/><ellipse cx="334" cy="102" rx="27" ry="15" transform="rotate(-24 334 102)"/>
+          </g>
+          <g fill="#d8c18c"><circle cx="148" cy="285" r="4"/><circle cx="272" cy="130" r="4"/><circle cx="433" cy="248" r="4"/></g>
+          <path d="M213 555c28-16 65-15 96 0" stroke="#79916f" stroke-width="3" fill="none" opacity=".6"/>
+        </svg>
+        <div class="art-caption caption-bottom"><span class="caption-line"></span> ROOTED IN CLARITY <span class="caption-line"></span></div>
+        <div class="floating-note note-left"><span class="note-icon">↗</span><span><small>YOUR NEXT CHAPTER</small><strong>Starts with a plan</strong></span></div>
+        <div class="floating-note note-right"><span class="note-leaf">✳</span><span><small>GROW WITH INTENTION</small><strong>One step at a time</strong></span></div>
+      </section>
+    </main>
+    <div class="welcome-footer"><span>PERSONAL FINANCE, REIMAGINED</span><span>01 — 03</span></div>
+  </div>
+
+  <div class="app-shell hidden" id="appShell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand-row">
+        <a class="brand" href="#dashboard" id="brandHome" aria-label="Finance Growth dashboard">
+          <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 34V17M20 22C12 22 8 17 8 10c8 0 12 4 12 12Zm0-5C20 9 25 5 33 5c0 8-4 13-13 14Z"/><path d="M12 34h16"/></svg></span>
+          <span><strong>FINANCE</strong><small>GROWTH</small></span>
+        </a>
+        <button class="icon-button sidebar-close" id="closeSidebar" aria-label="Close navigation">×</button>
+      </div>
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav class="side-nav" id="sideNav" aria-label="Main navigation">
+        <button class="nav-item active" data-view="dashboard"><span class="nav-icon">◫</span> Dashboard</button>
+        <button class="nav-item" data-view="accounts"><span class="nav-icon">▣</span> My accounts</button>
+        <button class="nav-item" data-view="savings"><span class="nav-icon">♧</span> Savings</button>
+        <button class="nav-item" data-view="expenses"><span class="nav-icon">↘</span> Expenses</button>
+        <button class="nav-item" data-view="income"><span class="nav-icon">↗</span> Income</button>
+        <button class="nav-item" data-view="budgets"><span class="nav-icon">▤</span> Budget planner</button>
+        <button class="nav-item" data-view="debts"><span class="nav-icon">⌁</span> Debt management</button>
+        <button class="nav-item" data-view="investments"><span class="nav-icon">♢</span> Investments</button>
+        <button class="nav-item" data-view="goals"><span class="nav-icon">✿</span> Financial goals</button>
+        <button class="nav-item" data-view="calculators"><span class="nav-icon">∑</span> Calculators</button>
+        <button class="nav-item" data-view="education"><span class="nav-icon">▱</span> Financial education</button>
+        <button class="nav-item" data-view="reports"><span class="nav-icon">⌗</span> Reports & analytics</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-quote"><span class="quote-sprout">✳</span><p>Small steps today.<br /><strong>Stronger roots tomorrow.</strong></p></div>
+        <button class="nav-item" data-view="settings"><span class="nav-icon">⚙</span> Settings</button>
+        <button class="nav-item nav-home" id="returnWelcome"><span class="nav-icon">⌂</span> Welcome screen</button>
+        <div class="sidebar-credit"><span>BUILT WITH CARE BY</span><strong>ABIZER KAGZI</strong></div>
+      </div>
+    </aside>
+    <div class="mobile-scrim" id="mobileScrim"></div>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+          <div><p class="topbar-kicker" id="topbarKicker">YOUR FINANCIAL OVERVIEW</p><h1 id="pageTitle">Dashboard</h1></div>
+        </div>
+        <div class="topbar-actions">
+          <div class="date-chip"><span class="status-dot"></span><span id="todayLabel">Today</span></div>
+          <button class="icon-button" id="quickAddButton" aria-label="Add a record" title="Quick add">＋</button>
+          <div class="profile-menu-wrap">
+            <button class="profile-chip" id="profileButton" title="Account menu" aria-haspopup="menu" aria-expanded="false" aria-controls="profileMenu"><span class="profile-avatar">A</span><span class="profile-name">My space</span><span class="profile-chevron">⌄</span></button>
+            <div class="profile-menu hidden" id="profileMenu" role="menu" aria-label="Account options">
+              <div class="profile-menu-summary"><span class="profile-menu-avatar" id="profileMenuAvatar">A</span><span><strong id="profileMenuName">My space</strong><small id="profileMenuLogin">Local profile</small></span></div>
+              <div class="profile-menu-divider"></div>
+              <button type="button" role="menuitem" data-profile-action="settings"><span aria-hidden="true">⚙</span> Account settings</button>
+              <button type="button" role="menuitem" class="profile-menu-logout" data-profile-action="logout"><span aria-hidden="true">↪</span> Sign out</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="view-root" id="viewRoot" aria-live="polite"></section>
+      <footer class="app-footer"><span>FINANCE GROWTH <i>·</i> GROW WITH CLARITY.</span><span>YOUR DATA STAYS ON THIS DEVICE</span></footer>
+    </main>
+  </div>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop">
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header"><div><p class="eyebrow" id="modalEyebrow">ADD TO YOUR GARDEN</p><h2 id="modalTitle">New record</h2></div><button class="icon-button" id="modalClose" aria-label="Close dialog">×</button></div>
+      <div class="modal-body" id="modalBody"></div>
+    </section>
+  </div>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
